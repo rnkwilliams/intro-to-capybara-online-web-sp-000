@@ -2,6 +2,6 @@
 
 require 'sinatra'
 
-require_realtive './app'
+require_relative './app'
 
 run Application
